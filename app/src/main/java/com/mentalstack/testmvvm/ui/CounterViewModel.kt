@@ -5,7 +5,7 @@ import android.arch.lifecycle.ViewModel
 import android.databinding.Bindable
 import com.mentalstack.testmvvm.data.CounterService
 
-class MainViewModel : ViewModel() {
+class CounterViewModel : ViewModel() {
 
     private val counterService = CounterService()
 
